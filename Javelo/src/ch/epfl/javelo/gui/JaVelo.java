@@ -51,7 +51,7 @@ public final class JaVelo extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
 
-        Path cacheBasePath = Path.of("osm-cache");
+        Path cacheBasePath = Path.of("Javelo/osm-cache");
         try {
             deleteDirectoryStream(cacheBasePath);
         } catch (IOException e) {
@@ -64,7 +64,7 @@ public final class JaVelo extends Application {
         String BNWTileServerHost = "stamen-tiles.a.ssl.fastly.net/toner";
         String pastelTileServerHost = "a.tile.openstreetmap.fr/hot";
 
-        Graph graph = Graph.loadFrom(Path.of("javelo-data"));
+        Graph graph = Graph.loadFrom(Path.of("Javelo/javelo-data"));
         String tileServerHost = "tile.openstreetmap.org";
 
         ObjectProperty<String> server = new SimpleObjectProperty<>();
