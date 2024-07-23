@@ -1,0 +1,53 @@
+.split-pane-divider {
+    -fx-background-color: transparent;
+}
+
+
+.menu .label {
+    -fx-text-fill: gray;
+}
+
+.text-field {
+    -fx-text-fill: gray;
+}
+
+* {
+    -fx-font-family: "Avenir";
+}
+
+#grid {
+    -fx-stroke: gray;
+    -fx-stroke-width: 1;
+    -fx-opacity: 0.5;
+}
+
+.grid_label {
+    -fx-font-size: 10;
+}
+
+.grid_label.horizontal {
+    -fx-text-origin: top;
+}
+
+#profile {
+    -fx-fill: hsb(0, 100%, 100%, 0.5);
+    -fx-stroke: hsb(0, 0%, 0%, 0.2);
+    -fx-stroke-width: 2;
+}
+
+#profile_data Text {
+    -fx-font-size: 12;
+}
+
+#profile_data {
+    -fx-padding: 5;
+    -fx-alignment: center;
+}
+
+
+#waypoints_path {
+    -fx-stroke: hsb(200, 50%, 80%);
+}
+
+
+
